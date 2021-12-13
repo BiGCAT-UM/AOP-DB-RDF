@@ -1,0 +1,4 @@
+SELECT DISTINCT  ?y ?z (COUNT (DISTINCT ?u) AS ?nu) 
+WHERE {
+?x a ?y ; ?z ?u .
+}
