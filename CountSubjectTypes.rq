@@ -1,0 +1,4 @@
+SELECT DISTINCT  ?y (COUNT (DISTINCT ?x) AS ?nx) 
+WHERE {
+?x a ?y .
+}
